@@ -11,14 +11,8 @@ public class ZipCodeMerger {
         }
         // Sort ranges by range.from values
         List<Range> sortedRanges = sortByFrom(rangesList);
-        List<Range> result = new ArrayList<>();
-        int index = 0;
         for (int i = 0; i < sortedRanges.size() - 1; i++) {
-            if (sortedRanges.get(i).getTo() < sortedRanges.get(i + 1).getFrom()) {
-                // Ranges don't overlap, save the ith range in result
-                result.add(sortedRanges.get(i));
-                // move to next element
-            } else {
+            if (sortedRanges.get(i).getTo() >= sortedRanges.get(i + 1).getFrom()) {
                 // Ranges overlap. We effectively reduce the size of the list to work on by 1,
                 // set the next element to be this last list and nullify the prior
                 if (sortedRanges.get(i).getTo() < sortedRanges.get(i + 1).getTo()) {
