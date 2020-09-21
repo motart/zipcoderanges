@@ -69,4 +69,15 @@ public class ZipCodeMergerTest {
         assertEquals(RangesData.RANGE_12.getFrom(),result.get(3).getFrom());
 
     }
+
+    @Test
+    public void nonNullMergerTest() {
+        List<Range> input = new ArrayList<>();
+        List<Range> processed = new ArrayList<>();
+        input.add(RangesData.RANGE_8);
+        input.add(RangesData.RANGE_11);
+        input.add(RangesData.RANGE_13);
+        processed = fixture.nonNullRanges(input);
+        assertEquals(2,processed.size());
+    }
 }

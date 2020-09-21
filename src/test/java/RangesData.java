@@ -11,5 +11,6 @@ public class RangesData {
     public static final Range RANGE_10 = new Range(10000,90000);
     public static final Range RANGE_11 = new Range(30000,50000);
     public static final Range RANGE_12 = new Range(91000,92000);
+    public static final Range RANGE_13 = null;
 
 }

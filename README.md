@@ -1,5 +1,8 @@
 # Williams Sonoma Coding Assessment
 ## Utility to merge zip code ranges
+
+
+
 ### Requirements:
 - Java 8
 - IntelliJ Idea preferably (to make setup easy)

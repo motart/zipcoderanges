@@ -28,7 +28,7 @@ public class ZipCodeMerger {
         return nonNullRanges(sortedRanges);
     }
 
-    private List<Range> nonNullRanges(List<Range> input) {
+    List<Range> nonNullRanges(List<Range> input) {
         List<Range> result = new ArrayList<>();
         for (Range range : input) {
             if (range != null) {
