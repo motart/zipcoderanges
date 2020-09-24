@@ -29,11 +29,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c3d14ad-b3bb-4119-994f-405b3692a941" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Range.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Range.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ZipCodeMerger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ZipCodeMerger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RangesData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RangesData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ZipCodeMergerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ZipCodeMergerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -206,8 +204,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.ZipCodeMergerTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.ZipCodeMergerTest.nonNullMergerTest" />
         <item itemvalue="Gradle.ZipCodeMergerTest.sortByFromTest" />
         <item itemvalue="Gradle.ZipCodeMergerTest.mergeTest" />
@@ -226,7 +224,9 @@
       <workItem from="1600580695975" duration="1498000" />
       <workItem from="1600599918404" duration="868000" />
       <workItem from="1600700533114" duration="439000" />
-      <workItem from="1600711555807" duration="676000" />
+      <workItem from="1600711555807" duration="1035000" />
+      <workItem from="1600750170157" duration="575000" />
+      <workItem from="1600909616387" duration="1046000" />
     </task>
     <servers />
   </component>
@@ -267,6 +267,14 @@
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state x="384" y="113" key="#Project_Structure/0.23.1792.1017@0.23.1792.1017" timestamp="1600569853174" />
+    <state x="709" y="245" key="#com.intellij.ide.util.MemberChooser" timestamp="1600910254311">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="709" y="245" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1017@0.23.1792.1017" timestamp="1600910254311" />
+    <state x="479" y="203" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1600910060770">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="479" y="203" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1600910060770" />
     <state x="608" y="315" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1600569976850">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
@@ -275,22 +283,22 @@
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state width="467" height="466" key="DebuggerActiveHint/0.23.1792.1017@0.23.1792.1017" timestamp="1600578274736" />
-    <state width="1750" height="277" key="GridCell.Tab.0.bottom" timestamp="1600712223881">
+    <state width="1750" height="277" key="GridCell.Tab.0.bottom" timestamp="1600910538455">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="277" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1600712223881" />
-    <state width="1750" height="277" key="GridCell.Tab.0.center" timestamp="1600712223880">
+    <state width="1750" height="277" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1600910538455" />
+    <state width="1750" height="277" key="GridCell.Tab.0.center" timestamp="1600910538454">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="277" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1600712223880" />
-    <state width="1750" height="277" key="GridCell.Tab.0.left" timestamp="1600712223880">
+    <state width="1750" height="277" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1600910538454" />
+    <state width="1750" height="277" key="GridCell.Tab.0.left" timestamp="1600910538454">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="277" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1600712223880" />
-    <state width="1750" height="277" key="GridCell.Tab.0.right" timestamp="1600712223880">
+    <state width="1750" height="277" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1600910538454" />
+    <state width="1750" height="277" key="GridCell.Tab.0.right" timestamp="1600910538455">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="277" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1600712223880" />
+    <state width="1750" height="277" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1600910538455" />
     <state width="1750" height="342" key="GridCell.Tab.1.bottom" timestamp="1600580173842">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
@@ -307,13 +315,17 @@
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state width="1750" height="342" key="GridCell.Tab.1.right/0.23.1792.1017@0.23.1792.1017" timestamp="1600580173842" />
+    <state x="561" y="248" width="670" height="676" key="search.everywhere.popup" timestamp="1600909647476">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="561" y="248" width="670" height="676" key="search.everywhere.popup/0.23.1792.1017@0.23.1792.1017" timestamp="1600909647476" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ZipCodeMerger.java</url>
-          <line>14</line>
+          <line>11</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -328,6 +340,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Zip_Code_Ranges$ZipCodeMergerTest_nonNullMergerTest.ic" NAME="ZipCodeMergerTest.nonNullMergerTest Coverage Results" MODIFIED="1600712180189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Zip_Code_Ranges$ZipCodeMergerTest.ic" NAME="ZipCodeMergerTest Coverage Results" MODIFIED="1600712209600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Zip_Code_Ranges$Main.ic" NAME="Main Coverage Results" MODIFIED="1600712223863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Zip_Code_Ranges$Main.ic" NAME="Main Coverage Results" MODIFIED="1600750182081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

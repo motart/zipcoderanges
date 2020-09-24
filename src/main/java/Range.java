@@ -1,4 +1,4 @@
-public class Range {
+public class Range implements Comparable<Range>{
     private int from;
     private int to;
 
@@ -24,5 +24,10 @@ public class Range {
 
     public String toString() {
         return "[" + from + " , " + to + "]";
+    }
+
+    @Override
+    public int compareTo(Range o) {
+        return from - o.from;
     }
 }
